@@ -107,7 +107,6 @@ body {
   padding: 20px;
 }
 
-
 #search-btn {
   background-color: #ff6b81;
   border: none;
@@ -285,5 +284,9 @@ body {
   margin: 20px 0;
   color: #ff6b81;
   font-weight: bold;
-  
+  transition: transform 0.2s;
+}
+
+.page-title:hover {
+  transform: scale(1.05);
 }
